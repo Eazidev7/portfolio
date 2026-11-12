@@ -57,7 +57,7 @@ Everything below is real code that runs — most of it in production, all of it 
 ### Card 1 — GO7 (flagship)
 
 - Badge: `Flagship · Live`
-- Link: `go7.ng ↗` → https://go7.ng
+- Links: `go7.ng ↗` → https://go7.ng · `Play Store ↗` → https://play.google.com/store/apps/details?id=g.go7.app
 - Image: `shots/go7.png`
 - Title: `GO7 — Delivery & Errands Platform`
 - Role line: `Role: solo build — design, frontend, backend, payments, deploys`
@@ -67,6 +67,7 @@ A full multi-role marketplace running 24/7 in Abeokuta: customer, vendor, rider 
 ```
 - Meta bullets:
 ```
+Android app live on Google Play
 4 user roles, one codebase
 DVA wallet funding via Paystack + Titan
 Verify-before-cutover FTP deploys — site never goes down
@@ -131,7 +132,7 @@ Dark mode + animated product assembly showcase
 
 ### Card 5 — Crypto Monitor
 
-- Badge: `Data pipeline` · side note: `VPS-deployed`
+- Badge: `Data pipeline` · link: `cryptomonitor.surge.sh ↗` → https://cryptomonitor.surge.sh
 - Title: `Crypto Monitor`
 - Role line: `Role: solo build — Python pipeline, VPS deployment, ongoing ops`
 - Paragraph:

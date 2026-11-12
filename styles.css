@@ -328,6 +328,7 @@ body {
   color: var(--text-faint);
   border: 1px solid var(--line);
 }
+.card__links { display: flex; gap: 16px; align-items: center; }
 .card__link {
   font-family: var(--font-mono);
   font-size: 13.5px;
