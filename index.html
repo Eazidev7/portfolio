@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tobiloba — Full-Stack Developer</title>
+<meta name="description" content="Tobiloba is a full-stack developer who builds and ships production systems: real-time marketplaces, fintech wallets, Telegram intelligence pipelines, and Solana trading automation." />
+
+<!-- Social / link previews — update the domain when you deploy to your real one -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tobiloba.dev/" />
+<meta property="og:title" content="Tobiloba — Full-Stack Developer" />
+<meta property="og:description" content="6+ years shipping for the web. Built GO7 (live 24/7 delivery marketplace) and Investory (live POS & inventory SaaS). Marketplaces · payments · automation · Web3." />
+<meta property="og:image" content="https://tobiloba.dev/shots/go7.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tobiloba — Full-Stack Developer" />
+<meta name="twitter:description" content="6+ years shipping for the web. Live marketplace + live retail SaaS — real production, not demos." />
+<meta name="twitter:image" content="https://tobiloba.dev/shots/go7.png" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f0a'/%3E%3Ctext x='32' y='44' font-family='monospace' font-size='36' font-weight='bold' fill='%23a3e635' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__sigil">T</span>
+    <span class="nav__name">tobiloba<span class="accent">.dev</span></span>
+  </a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#stack">Stack</a>
+    <a href="#journey">Journey</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav__cta">Contact</a>
+  </nav>
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <p class="hero__eyebrow reveal"><span class="dot"></span> Available for work — Abeokuta, Nigeria / Remote</p>
+    <h1 class="hero__title reveal">
+      Tobiloba<span class="accent">.</span><br />
+      <span class="hero__title-sub">Full-stack developer<br />who ships to production.</span>
+    </h1>
+    <p class="hero__lede reveal">
+      Six-plus years building for the web — from WordPress to live production
+      systems: a 24/7 delivery marketplace, a retail POS &amp; device-financing
+      SaaS, fintech wallets, Telegram intelligence pipelines, and Solana trading
+      automation. Not demos. Production.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="#work" class="btn btn--primary">View work</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+    <dl class="hero__stats reveal">
+      <div><dt>6+ yrs</dt><dd>hands-on experience</dd></div>
+      <div><dt>8+</dt><dd>shipped projects</dd></div>
+      <div><dt>2</dt><dd>live production platforms</dd></div>
+      <div><dt>4</dt><dd>app roles on one product</dd></div>
+      <div><dt>2</dt><dd>chains shipped on</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="section__head reveal">
+      <span class="section__index">01</span>
+      <h2>Selected work</h2>
+      <p>Everything below is real code that runs — most of it in production, all of it built end-to-end.</p>
+    </div>
+
+    <div class="projects">
+
+      <article class="card card--flagship reveal">
+        <div class="card__top">
+          <span class="card__badge">Flagship · Live</span>
+          <a class="card__link" href="https://go7.ng" target="_blank" rel="noopener">go7.ng ↗</a>
+        </div>
+        <figure class="card__shot">
+          <div class="card__chrome"><i></i><i></i><i></i><span>go7.ng</span></div>
+          <img src="shots/go7.png" alt="GO7 homepage — delivery search, categories, and live stats" loading="lazy" />
+        </figure>
+        <h3>GO7 — Delivery &amp; Errands Platform</h3>
+        <p class="card__role">Role: solo build — design, frontend, backend, payments, deploys</p>
+        <p>
+          A full multi-role marketplace running 24/7 in Abeokuta: customer, vendor,
+          rider and admin apps plus native Android builds. Real-time order tracking
+          on live maps, Paystack payments, dedicated virtual account wallets,
+          push notifications, and a zero-downtime deploy pipeline.
+        </p>
+        <ul class="card__meta">
+          <li>4 user roles, one codebase</li>
+          <li>DVA wallet funding via Paystack + Titan</li>
+          <li>Verify-before-cutover FTP deploys — site never goes down</li>
+        </ul>
+        <div class="tags">
+          <span>React</span><span>Vite</span><span>Firebase</span><span>Paystack</span>
+          <span>Capacitor</span><span>Leaflet / MapLibre</span><span>PWA</span><span>Zustand</span>
+        </div>
+      </article>
+
+      <article class="card card--flagship reveal">
+        <div class="card__top">
+          <span class="card__badge">Live · SaaS</span>
+          <a class="card__link" href="https://sevenlinkz-investory.web.app" target="_blank" rel="noopener">sevenlinkz-investory.web.app ↗</a>
+        </div>
+        <figure class="card__shot">
+          <div class="card__chrome"><i></i><i></i><i></i><span>sevenlinkz-investory.web.app</span></div>
+          <img src="shots/investory.png" alt="Investory login screen — Point of Sale and Inventory System PWA" loading="lazy" />
+        </figure>
+        <h3>Investory — POS &amp; Inventory SaaS</h3>
+        <p class="card__role">Role: solo build — design, frontend, backend, payments, print infra</p>
+        <p>
+          A production retail platform built for 7linkz Phone Village: a keyboard-first
+          counter POS, IMEI-level stock control, Paystack checkout that only saves a
+          sale after payment confirms, BNPL device financing with MDM remote lock,
+          staff RBAC, end-of-day reports, and thermal printing routed through a
+          Firestore print queue.
+        </p>
+        <ul class="card__meta">
+          <li>IMEI-level inventory + bulk CSV/Excel import</li>
+          <li>BNPL device financing + MDM remote lock/unlock</li>
+          <li>Verify-then-save Paystack checkout, EOD reports, immutable audit log</li>
+          <li>Installable PWA · FCM push alerts · cloud print queue → thermal printers</li>
+        </ul>
+        <div class="tags">
+          <span>React 19</span><span>Vite</span><span>Firebase</span><span>Paystack</span>
+          <span>PWA</span><span>FCM</span><span>Node print server</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">Data pipeline</span>
+          <span class="card__link card__link--static">VPS-deployed</span>
+        </div>
+        <h3>Crypto Monitor</h3>
+        <p class="card__role">Role: solo build — Python pipeline, VPS deployment, ongoing ops</p>
+        <p>
+          A Telegram intelligence system running on a VPS: watches groups for
+          keywords, contract addresses and scam patterns; mines "can't sell"
+          complaints to surface bad tokens; classifies and backfills findings
+          through a bot UI.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Telethon</span><span>SQLite</span><span>systemd / nohup</span><span>SSH automation</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">Trading automation</span>
+        </div>
+        <h3>Solana Trading Bot</h3>
+        <p class="card__role">Role: solo build — strategy filters, execution engine, audit logging</p>
+        <p>
+          Automated memecoin trader for pump.fun / letsbonk launches — token
+          scanning, safety filters, and full trade logging/auditing to CSV and
+          JSON for post-trade review.
+        </p>
+        <div class="tags">
+          <span>Node.js</span><span>@solana/web3.js</span><span>SPL Token</span><span>REST APIs</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">Web3</span>
+        </div>
+        <h3>Solana Wallet App</h3>
+        <p class="card__role">Role: solo build — Next.js app, wallet adapter integration, UI</p>
+        <p>
+          Next.js wallet client with Phantom adapter integration, auto-connect,
+          and real-time SOL balance — clean Tailwind UI on the App Router.
+        </p>
+        <div class="tags">
+          <span>Next.js 14</span><span>TypeScript</span><span>Tailwind</span><span>Wallet Adapter</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">DeFi · BSC</span>
+          <span class="card__link card__link--static">dApp</span>
+        </div>
+        <figure class="card__shot">
+          <div class="card__chrome"><i></i><i></i><i></i><span>nexa-network</span></div>
+          <img src="shots/nexa.png" alt="NEXA Network dApp — token swap and dividend dashboard" loading="lazy" />
+        </figure>
+        <h3>NEXA Network — Swap &amp; Migration dApp</h3>
+        <p class="card__role">Role: solo build — Web3 frontend, contract integration, wallet UX</p>
+        <p>
+          A DeFi migration platform on Binance Smart Chain: holders swap legacy
+          tokens into a new verified contract through a guided swap flow, plus a
+          direct token purchase path and a real-time USDT dividend dashboard.
+          Multi-wallet connect (MetaMask, TrustWallet, SafePal, WalletConnect),
+          gas-aware transactions, and swap fees/deadlines enforced on-chain.
+        </p>
+        <ul class="card__meta">
+          <li>Legacy → new token migration at fixed ratio — fees &amp; deadline enforced on-chain</li>
+          <li>Real-time USDT dividend dashboard with auto-claim tracking</li>
+          <li>Web3Modal + WalletConnect — MetaMask, TrustWallet, SafePal, Binance</li>
+          <li>BSCScan-verified contracts · gas estimation · mobile wallet support</li>
+        </ul>
+        <div class="tags">
+          <span>ethers.js</span><span>Web3Modal</span><span>WalletConnect</span>
+          <span>BSC</span><span>Bootstrap 5</span><span>Vite</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">Game</span>
+        </div>
+        <figure class="card__shot card__shot--short">
+          <div class="card__chrome"><i></i><i></i><i></i><span>rekt-city</span></div>
+          <img src="shots/rektcity.png" alt="Rekt City title screen — Degen Alley prototype" loading="lazy" />
+        </figure>
+        <h3>Rekt City</h3>
+        <p class="card__role">Role: solo build — Phaser 3 engine work, scenes, UI</p>
+        <p>
+          A browser game built on the Phaser 3 engine with a typed, componented
+          codebase — asset pipeline, scene architecture, and a Vite build.
+        </p>
+        <div class="tags">
+          <span>Phaser 3</span><span>TypeScript</span><span>Vite</span>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__top">
+          <span class="card__badge card__badge--dim">Smart contracts + AI</span>
+        </div>
+        <h3>TobiCoin &amp; Agent Tooling</h3>
+        <p class="card__role">Role: solo build — Solidity contract, Python agent services</p>
+        <p>
+          An ERC-20 token written on OpenZeppelin contracts, alongside Python
+          service tooling: a Gemini-powered CLI agent and HTTP gateway/proxy
+          services for programmatic access.
+        </p>
+        <div class="tags">
+          <span>Solidity</span><span>OpenZeppelin</span><span>Python</span><span>Gemini API</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="section__head reveal">
+      <span class="section__index">02</span>
+      <h2>What I can build for you</h2>
+      <p>Everything below maps to something already running in production — you're buying proven systems, not promises.</p>
+    </div>
+
+    <div class="services">
+      <div class="service reveal">
+        <h4>Delivery &amp; marketplace apps</h4>
+        <p>Multi-role platforms like GO7 — customer, vendor, rider &amp; admin apps, live tracking, payments. One codebase, web + Android.</p>
+      </div>
+      <div class="service reveal">
+        <h4>POS &amp; inventory SaaS</h4>
+        <p>Retail systems like Investory — stock down to IMEI level, staff roles &amp; approvals, EOD reports, thermal printing.</p>
+      </div>
+      <div class="service reveal">
+        <h4>Payments &amp; fintech</h4>
+        <p>Paystack checkout, webhooks, wallets &amp; dedicated virtual accounts — verify-then-save flows that never lose a sale.</p>
+      </div>
+      <div class="service reveal">
+        <h4>Bots &amp; automation</h4>
+        <p>Telegram monitors, trading automation, data pipelines — deployed on your VPS and built to run unattended.</p>
+      </div>
+      <div class="service reveal">
+        <h4>Web3 &amp; contracts</h4>
+        <p>Solana integrations, wallet adapters, SPL &amp; ERC-20 tokens — from contract to connected UI.</p>
+      </div>
+      <div class="service reveal">
+        <h4>WordPress &amp; business sites</h4>
+        <p>6+ years of client sites, WooCommerce stores, custom themes, plugins and ongoing maintenance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section class="section" id="stack">
+    <div class="section__head reveal">
+      <span class="section__index">03</span>
+      <h2>Stack</h2>
+      <p>Tools I use to ship — chosen for what survives production, not what's trendy.</p>
+    </div>
+
+    <div class="stack">
+      <div class="stack__group reveal">
+        <h4>Frontend</h4>
+        <p>React · Next.js · TypeScript · Vite · Tailwind · MUI · Framer Motion · Zustand · React Query</p>
+      </div>
+      <div class="stack__group reveal">
+        <h4>Backend &amp; Data</h4>
+        <p>Node.js · Express · PHP / WordPress · Firebase (Firestore, Cloud Functions, FCM, Storage) · Python · SQLite</p>
+      </div>
+      <div class="stack__group reveal">
+        <h4>Mobile &amp; PWA</h4>
+        <p>Capacitor (Android) · Service workers · Push notifications · Offline-first caching</p>
+      </div>
+      <div class="stack__group reveal">
+        <h4>Web3</h4>
+        <p>Solana (web3.js, SPL, Wallet Adapter) · Solidity · OpenZeppelin · EVM</p>
+      </div>
+      <div class="stack__group reveal">
+        <h4>Payments &amp; Realtime</h4>
+        <p>Paystack · Dedicated virtual accounts · Webhooks · Socket.IO · Leaflet / MapLibre / Google Maps</p>
+      </div>
+      <div class="stack__group reveal">
+        <h4>Ops</h4>
+        <p>VPS &amp; SSH automation · Zero-downtime FTP deploys · Sentry · Deploy verification scripts</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="section" id="journey">
+    <div class="section__head reveal">
+      <span class="section__index">04</span>
+      <h2>The journey so far</h2>
+      <p>Six years on WordPress, then a leap into full-stack JavaScript, Web3, and live production systems.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="reveal">
+        <span class="timeline__date">2025 — now</span>
+        <div class="timeline__body">
+          <h4>GO7 Delivery Platform</h4>
+          <p>
+            Founded, built, and run a live 24/7 delivery marketplace — customer, vendor,
+            rider, and admin apps, Paystack payments and DVA wallets, live map tracking,
+            native Android builds, and zero-downtime deploys. Over a year in production and counting.
+          </p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="timeline__date">2026</span>
+        <div class="timeline__body">
+          <h4>Telegram intelligence pipeline</h4>
+          <p>
+            Deployed a VPS-hosted crypto monitor: keyword and contract-address detection
+            across groups, complaint mining, classifiers, and backfill tooling with a bot UI.
+          </p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="timeline__date">2026</span>
+        <div class="timeline__body">
+          <h4>Retail SaaS — Investory</h4>
+          <p>
+            Designed and shipped a full POS &amp; inventory platform for a phone retail
+            business: Paystack checkout, BNPL device financing with MDM lock, staff
+            permissions, EOD reporting, and thermal cloud printing.
+          </p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="timeline__date">2026</span>
+        <div class="timeline__body">
+          <h4>Web3, AI &amp; games</h4>
+          <p>
+            Solana wallet client (Next.js + Phantom), an ERC-20 token on OpenZeppelin,
+            Gemini-powered agent tooling, and a Phaser 3 browser game.
+          </p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="timeline__date">2025</span>
+        <div class="timeline__body">
+          <h4>Solana trading automation</h4>
+          <p>
+            Built an automated memecoin trader for pump.fun / letsbonk — token scanning,
+            safety filters, and full trade audit logging.
+          </p>
+        </div>
+      </li>
+      <li class="reveal">
+        <span class="timeline__date">2019 → · 6+ yrs</span>
+        <div class="timeline__body">
+          <h4>WordPress — where it started</h4>
+          <p>
+            Over six years hands-on: client sites, custom themes, plugin work,
+            WooCommerce stores, and the hosting/maintenance grind that teaches you
+            what "production" actually means.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section__head reveal">
+      <span class="section__index">05</span>
+      <h2>How I work</h2>
+    </div>
+    <div class="about reveal">
+      <p>
+        Six-plus years of WordPress — client sites, themes, plugins, WooCommerce —
+        taught me what it means to own something in production. I build products
+        the way they have to be built to stay alive: small safe fixes over
+        rewrites, real data over placeholders, and deploys that never take the
+        site down. GO7 has users ordering right now — that's the standard
+        everything gets held to.
+      </p>
+      <p>
+        My range runs from pixel to protocol: React frontends and Android builds,
+        Firebase backends and payment webhooks, Python automation on a VPS, and
+        smart contracts on Solana and EVM. If a system has a frontend, a backend,
+        a payment rail, or a chain — I've probably wired it.
+      </p>
+      <ul class="about__principles">
+        <li><strong>Ship it live.</strong> A project isn't done until it's deployed and verified.</li>
+        <li><strong>Smallest safe fix.</strong> Production code gets surgical edits, not rewrites.</li>
+        <li><strong>Real data only.</strong> No demo content hiding behind empty states.</li>
+        <li><strong>Zero downtime.</strong> New assets land before the cutover, always verified.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--contact" id="contact">
+    <div class="quotes reveal">
+      <p class="quotes__refs">References from 7linkz Phone Village &amp; GO7 vendors available on request.</p>
+    </div>
+    <div class="contact reveal">
+      <h2>Let's build something<br />that stays up.</h2>
+      <p>Open to freelance builds, contract work, and collaborations on marketplaces, fintech, Web3, or automation.</p>
+      <div class="contact__links">
+        <a class="btn btn--primary" href="mailto:go7delivery@gmail.com">go7delivery@gmail.com</a>
+        <a class="btn btn--ghost" href="https://wa.me/2347030680816?text=Hi%20Tobiloba%2C%20I%20saw%20your%20portfolio" target="_blank" rel="noopener">WhatsApp ↗</a>
+        <a class="btn btn--ghost" href="https://github.com/Eazidev7" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/adekoya-oluwatobi-441477161" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Tobiloba</span>
+  <span class="footer__note">Designed &amp; built by hand — no framework, no build step.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
