@@ -113,7 +113,7 @@ Admin dashboard: catalog, orders, settings, WhatsApp ordering
 
 ### Card 4 — Furniture or Living
 
-- Badge: `E-commerce` · side note: `full-stack store`
+- Badge: `E-commerce` · link: `live demo ↗` → https://eazidev7.github.io/furniture-or-living/
 - Image: `shots/furniture.png`
 - Title: `Furniture or Living — Furniture Storefront`
 - Role line: `Role: solo build — storefront, cart & checkout, Supabase backend, admin panel`

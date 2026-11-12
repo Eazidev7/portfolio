@@ -37,7 +37,7 @@ Each card: badge, title, mono `Role:` line, paragraph, tag pills.
 1. **GO7 — Delivery & Errands Platform** — badge `Flagship · Live`, link go7.ng, image `shots/go7.png`. Role: solo build — design, frontend, backend, payments, deploys.
 2. **Investory — POS & Inventory SaaS** — badge `Live · SaaS`, link sevenlinkz-investory.web.app, image `shots/investory.png`. Role: solo build — design, frontend, backend, payments, print infra.
 3. **Real Milade Beauty — Skincare Storefront** — badge `E-commerce`, image `shots/milade.png`. Role: solo build — storefront, PHP/MySQL API, admin panel, payments.
-4. **Furniture or Living — Furniture Storefront** — badge `E-commerce`, image `shots/furniture.png`. Role: solo build — storefront, cart & checkout, Supabase backend, admin panel.
+4. **Furniture or Living — Furniture Storefront** — badge `E-commerce`, link eazidev7.github.io/furniture-or-living, image `shots/furniture.png`. Role: solo build — storefront, cart & checkout, Supabase backend, admin panel.
 5. **Crypto Monitor** — badge `Data pipeline`. Role: solo build — Python pipeline, VPS deployment, ongoing ops.
 6. **Solana Trading Bot** — badge `Trading automation`. Role: solo build — strategy filters, execution engine, audit logging.
 7. **Solana Wallet App** — badge `Web3`. Role: solo build — Next.js app, wallet adapter integration, UI.
