@@ -133,6 +133,7 @@ Dark mode + animated product assembly showcase
 ### Card 5 — Crypto Monitor
 
 - Badge: `Data pipeline` · link: `cryptomonitor.surge.sh ↗` → https://cryptomonitor.surge.sh
+- Image: `shots/monitor.png`
 - Title: `Crypto Monitor`
 - Role line: `Role: solo build — Python pipeline, VPS deployment, ongoing ops`
 - Paragraph:
