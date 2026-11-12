@@ -42,7 +42,7 @@ Buttons: `View work` (lime fill → scrolls to Work) · `Get in touch` (outline 
 
 Stats row (5 items, number then label):
 | `6+ yrs` | hands-on experience |
-| `8+` | shipped projects |
+| `10+` | shipped projects |
 | `2` | live production platforms |
 | `4` | app roles on one product |
 | `2` | chains shipped on |
@@ -93,7 +93,43 @@ Installable PWA · FCM push alerts · cloud print queue → thermal printers
 ```
 - Tags: `React 19` `Vite` `Firebase` `Paystack` `PWA` `FCM` `Node print server`
 
-### Card 3 — Crypto Monitor
+### Card 3 — Real Milade Beauty
+
+- Badge: `E-commerce` · side note: `full-stack store`
+- Image: `shots/milade.png`
+- Title: `Real Milade Beauty — Skincare Storefront`
+- Role line: `Role: solo build — storefront, PHP/MySQL API, admin panel, payments`
+- Paragraph:
+```
+A complete skincare e-commerce build: Next.js 15 storefront exported as static files for cheap shared hosting, backed by a custom PHP + MySQL API — product catalog, cart, Paystack checkout with server-side verify and webhook, coupons, customer order tracking, and an admin panel for products, orders and settings.
+```
+- Meta bullets:
+```
+Static Next.js export + custom PHP/MySQL API — runs on plain cPanel hosting
+Paystack inline checkout + verify + webhook, coupons, order tracking
+Admin dashboard: catalog, orders, settings, WhatsApp ordering
+```
+- Tags: `Next.js 15` `React 19` `TypeScript` `Tailwind 4` `PHP` `MySQL` `Paystack`
+
+### Card 4 — Furniture or Living
+
+- Badge: `E-commerce` · side note: `full-stack store`
+- Image: `shots/furniture.png`
+- Title: `Furniture or Living — Furniture Storefront`
+- Role line: `Role: solo build — storefront, cart & checkout, Supabase backend, admin panel`
+- Paragraph:
+```
+A furniture e-commerce build with an editorial, product-first design: collection browsing, cart and checkout flow, order enquiries, dark mode, and an admin dashboard — backed by Supabase edge functions as the admin API.
+```
+- Meta bullets:
+```
+Cart + multi-step checkout with order persistence
+Admin panel secured through Supabase edge functions
+Dark mode + animated product assembly showcase
+```
+- Tags: `Vanilla JS` `HTML/CSS` `Supabase` `Edge Functions`
+
+### Card 5 — Crypto Monitor
 
 - Badge: `Data pipeline` · side note: `VPS-deployed`
 - Title: `Crypto Monitor`
@@ -104,7 +140,7 @@ A Telegram intelligence system running on a VPS: watches groups for keywords, co
 ```
 - Tags: `Python` `Telethon` `SQLite` `systemd / nohup` `SSH automation`
 
-### Card 4 — Solana Trading Bot
+### Card 6 — Solana Trading Bot
 
 - Badge: `Trading automation`
 - Title: `Solana Trading Bot`
@@ -115,7 +151,7 @@ Automated memecoin trader for pump.fun / letsbonk launches — token scanning, s
 ```
 - Tags: `Node.js` `@solana/web3.js` `SPL Token` `REST APIs`
 
-### Card 5 — Solana Wallet App
+### Card 7 — Solana Wallet App
 
 - Badge: `Web3`
 - Title: `Solana Wallet App`
@@ -126,7 +162,7 @@ Next.js wallet client with Phantom adapter integration, auto-connect, and real-t
 ```
 - Tags: `Next.js 14` `TypeScript` `Tailwind` `Wallet Adapter`
 
-### Card 6 — Rekt City
+### Card 8 — Rekt City
 
 - Badge: `Game`
 - Image: `shots/rektcity.png`
@@ -138,7 +174,7 @@ A browser game built on the Phaser 3 engine with a typed, componented codebase �
 ```
 - Tags: `Phaser 3` `TypeScript` `Vite`
 
-### Card 7 — NEXA Network — Swap & Migration dApp
+### Card 9 — NEXA Network — Swap & Migration dApp
 
 - Badge: `DeFi · BSC` · side note: `dApp`
 - Image: `shots/nexa.png`
@@ -158,7 +194,7 @@ BSCScan-verified contracts · gas estimation · mobile wallet support
 - Tags: `ethers.js` `Web3Modal` `WalletConnect` `BSC` `Bootstrap 5` `Vite`
 - Note: this is the rebranded NEXA build — never write the old token name anywhere.
 
-### Card 8 — TobiCoin & Agent Tooling
+### Card 10 — TobiCoin & Agent Tooling
 
 - Badge: `Smart contracts + AI`
 - Title: `TobiCoin & Agent Tooling`

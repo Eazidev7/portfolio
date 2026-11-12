@@ -29,19 +29,21 @@ Fonts are on Google Fonts — Framer can load both natively.
 - H1: `Tobiloba.` then dim sub-line `Full-stack developer who ships to production.`
 - Lede: "Six-plus years building for the web — from WordPress to live production systems: a 24/7 delivery marketplace, a retail POS & device-financing SaaS, fintech wallets, Telegram intelligence pipelines, and Solana trading automation. Not demos. Production."
 - Buttons: `View work` (lime fill) + `Get in touch` (outline)
-- Stats row (5): `6+ yrs` hands-on experience · `8+` shipped projects · `2` live production platforms · `4` app roles on one product · `2` chains shipped on
+- Stats row (5): `6+ yrs` hands-on experience · `10+` shipped projects · `2` live production platforms · `4` app roles on one product · `2` chains shipped on
 
 ### 3. Selected work — cards in this order
 Each card: badge, title, mono `Role:` line, paragraph, tag pills.
 
 1. **GO7 — Delivery & Errands Platform** — badge `Flagship · Live`, link go7.ng, image `shots/go7.png`. Role: solo build — design, frontend, backend, payments, deploys.
 2. **Investory — POS & Inventory SaaS** — badge `Live · SaaS`, link sevenlinkz-investory.web.app, image `shots/investory.png`. Role: solo build — design, frontend, backend, payments, print infra.
-3. **Crypto Monitor** — badge `Data pipeline`. Role: solo build — Python pipeline, VPS deployment, ongoing ops.
-4. **Solana Trading Bot** — badge `Trading automation`. Role: solo build — strategy filters, execution engine, audit logging.
-5. **Solana Wallet App** — badge `Web3`. Role: solo build — Next.js app, wallet adapter integration, UI.
-6. **Rekt City** — badge `Game`, image `shots/rektcity.png`. Role: solo build — Phaser 3 engine work, scenes, UI.
-7. **NEXA Network — Swap & Migration dApp** — badge `DeFi · BSC`, image `shots/nexa.png`. Role: solo build — Web3 frontend, contract integration, wallet UX. (Rebranded build of the ALAI codebase — names swapped, design identical.)
-8. **TobiCoin & Agent Tooling** — badge `Smart contracts + AI`. Role: solo build — Solidity contract, Python agent services.
+3. **Real Milade Beauty — Skincare Storefront** — badge `E-commerce`, image `shots/milade.png`. Role: solo build — storefront, PHP/MySQL API, admin panel, payments.
+4. **Furniture or Living — Furniture Storefront** — badge `E-commerce`, image `shots/furniture.png`. Role: solo build — storefront, cart & checkout, Supabase backend, admin panel.
+5. **Crypto Monitor** — badge `Data pipeline`. Role: solo build — Python pipeline, VPS deployment, ongoing ops.
+6. **Solana Trading Bot** — badge `Trading automation`. Role: solo build — strategy filters, execution engine, audit logging.
+7. **Solana Wallet App** — badge `Web3`. Role: solo build — Next.js app, wallet adapter integration, UI.
+8. **Rekt City** — badge `Game`, image `shots/rektcity.png`. Role: solo build — Phaser 3 engine work, scenes, UI.
+9. **NEXA Network — Swap & Migration dApp** — badge `DeFi · BSC`, image `shots/nexa.png`. Role: solo build — Web3 frontend, contract integration, wallet UX. (Rebranded build of the ALAI codebase — names swapped, design identical.)
+10. **TobiCoin & Agent Tooling** — badge `Smart contracts + AI`. Role: solo build — Solidity contract, Python agent services.
 
 (Full card copy: lift verbatim from `index.html` — each card's paragraph and meta bullets are already written.)
 
@@ -75,7 +77,7 @@ Copy in `index.html`, id="about".
 Desktop 1200 / Tablet 810 / Phone 390. Mobile: single-column cards, hamburger menu.
 
 ## Assets to upload
-`shots/go7.png`, `shots/investory.png`, `shots/rektcity.png`
+`shots/go7.png`, `shots/investory.png`, `shots/milade.png`, `shots/furniture.png`, `shots/rektcity.png`, `shots/nexa.png`
 
 ## Publish checklist
 - [ ] Publish → free `*.framer.website` URL (this is your "live Framer site" link)
