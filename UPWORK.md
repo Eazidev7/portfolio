@@ -131,9 +131,9 @@ Stack: Solidity · OpenZeppelin · Python
 
 ## What's left (only you can do)
 
-- [ ] Profile photo + hourly rate + availability — set on Upwork
+- [ ] Hourly rate + availability — set on Upwork (photo already set)
 - [ ] **Unpause Supabase project** (`wbajjtcrclzpfertzyes`) or the furniture demo checkout errors for clients
-- [ ] Upwork portfolio items only need items 1–5 to start — lead with GO7 + Investory
+- [x] Upwork portfolio items added via browser automation — GO7, Investory, Milade, Furniture + existing monitor (5 items, GO7 first)
 - [ ] Optional: screenshots for Solana Bot (terminal/log shot) and Solana Wallet (run locally)
 - [ ] Pin repos on github.com/Eazidev7 — portfolio, go7, investory, furniture-or-living
 - [ ] When a job asks for "live Framer sites": build per `FRAMER-BUILD.md` (copy deck in `FRAMER-COPY.md`)
